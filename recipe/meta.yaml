@@ -1,6 +1,6 @@
 {% set name = "python-flatbuffers" %}
 {% set pypi_name = "flatbuffers" %}
-{% set version = "1.10" %}
+{% set version = "1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 91800165bedd4efbb4d3a60a7007d2124514faf7f6d85919f7023b74b503445d
+  sha256: f24185db54193540e3d684dc98aa7c2d89882341641548ceb36fd2589fef6c4e
 
 build:
   number: 0

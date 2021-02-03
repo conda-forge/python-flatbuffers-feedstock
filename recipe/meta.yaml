@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://google.github.io/flatbuffers/
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.txt
   summary: Python runtime library for use with the Flatbuffers serialization format.
@@ -45,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - kalefranz
+    - njzjz

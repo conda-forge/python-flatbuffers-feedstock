@@ -5,9 +5,13 @@ Home: https://google.github.io/flatbuffers/
 
 Package license: Apache 2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-flatbuffers-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python runtime library for use with the Flatbuffers serialization format.
+
+Development: https://github.com/google/flatbuffers
+
+Documentation: https://google.github.io/flatbuffers/
 
 FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, Python, and Rust. It was originally created at Google for game development and other performance-critical applications. This package is the python runtime library. The flatc compiler is in the flatbuffers conda package.
 

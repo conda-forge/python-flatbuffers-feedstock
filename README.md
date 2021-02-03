@@ -3,11 +3,15 @@ About python-flatbuffers
 
 Home: https://google.github.io/flatbuffers/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-flatbuffers-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python runtime library for use with the Flatbuffers serialization format.
+
+Development: https://github.com/google/flatbuffers
+
+Documentation: https://google.github.io/flatbuffers/
 
 FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, Python, and Rust. It was originally created at Google for game development and other performance-critical applications. This package is the python runtime library. The flatc compiler is in the flatbuffers conda package.
 
@@ -16,9 +20,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5713&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-flatbuffers-feedstock?branchName=master">
@@ -70,7 +72,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -120,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@kalefranz](https://github.com/kalefranz/)
+* [@njzjz](https://github.com/njzjz/)
 

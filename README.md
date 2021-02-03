@@ -3,7 +3,7 @@ About python-flatbuffers
 
 Home: https://google.github.io/flatbuffers/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-flatbuffers-feedstock/blob/master/LICENSE.txt)
 
@@ -122,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@kalefranz](https://github.com/kalefranz/)
+* [@njzjz](https://github.com/njzjz/)
 

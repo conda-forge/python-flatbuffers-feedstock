@@ -1,11 +1,11 @@
-About python-flatbuffers
-========================
+About python-flatbuffers-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-flatbuffers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://google.github.io/flatbuffers/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-flatbuffers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python runtime library for use with the Flatbuffers serialization format.
 

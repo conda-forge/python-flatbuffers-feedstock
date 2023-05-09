@@ -1,6 +1,6 @@
 {% set name = "python-flatbuffers" %}
 {% set pypi_name = "flatbuffers" %}
-{% set version = "23.3.3" %}
+{% set version = "23.5.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: cabd87c4882f37840f6081f094b2c5bc28cefc2a6357732746936d055ab45c3d
+  sha256: 29bb3cfb60c6690d627299fd2b6a5953d2500e4f0c192be4cb1ca2cf921004e1
 
 build:
   number: 0

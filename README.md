@@ -154,4 +154,3 @@ Feedstock Maintainers
 * [@njzjz](https://github.com/njzjz/)
 * [@xhochy](https://github.com/xhochy/)
 
-

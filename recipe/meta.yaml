@@ -1,18 +1,18 @@
 {% set name = "python-flatbuffers" %}
 {% set pypi_name = "flatbuffers" %}
-{% set version = "25.9.23" %}
+{% set version = "25.12.19" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 676f9fa62750bb50cf531b42a0a2a118ad8f7f797a511eda12881c016f093b12
+  url: https://github.com/google/flatbuffers/archive/v{{ version }}.tar.gz 
+  sha256: f81c3162b1046fe8b84b9a0dbdd383e24fdbcf88583b9cb6028f90d04d90696a
 
 build:
   number: 0
-  script: VERSION=v{{ version }} {{ PYTHON }} -m pip install . -vv
+  script: cd python && VERSION=v{{ version }} {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
